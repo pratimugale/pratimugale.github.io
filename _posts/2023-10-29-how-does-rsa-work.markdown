@@ -6,7 +6,6 @@ categories: jekyll update
 ---
 In this post I will explain how RSA works and how it secures communication over the internet.
 
-
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
