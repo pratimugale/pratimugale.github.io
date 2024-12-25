@@ -1,0 +1,7 @@
+.expand-content {
+    display: none;
+}
+
+.expand-content.show {
+    display: block;
+}
