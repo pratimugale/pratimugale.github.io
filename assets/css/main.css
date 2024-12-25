@@ -8,3 +8,21 @@ body {
     background-image: url('/assets/images/background.png');
     mix-blend-mode: multiply;
 }
+
+.post-content{
+  text-align: justify;
+}
+
+section {
+  margin-bottom: 2rem; /* Space between sections */
+}
+
+hr {
+  border: 1px solid #ccc; /* Customize border style, color, and thickness */
+  margin: 0.5rem 0; /* Adjust margin above and below the line */
+}
+
+.expand-trigger{
+  color: #555;
+  font-weight: bold; 
+}
