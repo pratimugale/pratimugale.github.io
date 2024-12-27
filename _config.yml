@@ -23,7 +23,7 @@ email: contact.pratimugale@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website that covers my personal and professional interests ranging from
   software development, music, number theory to quantum computing.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pratimugale
 linkedin_username: pratimugale
