@@ -1,28 +1,95 @@
 body {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-repeat: repeat;
-    background-image: url('/assets/images/background.png');
-    mix-blend-mode: multiply;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-repeat: repeat; */
+  /* background-image: url('/assets/images/leaves.jpg'); */
+  /* mix-blend-mode: normal; */
+  /* z-index: 1; /* Explicitly set z-index for higher priority */
+  /* opacity: 1; */
 }
 
-.post-content{
+.post-title {
+  mix-blend-mode: multiply;
+}
+
+.mainbody {
+  background-repeat: repeat;
+  background-image: url('/assets/images/leaves.jpg');
+  mix-blend-mode: multiply;
+  /* z-index: 1; /* Explicitly set z-index for higher priority */
+  opacity: 1;
+}
+
+.post-content {
   text-align: justify;
+  background-image: url('/assets/images/postBackground.jpg');
+  background-repeat: repeat;
+  /* Prevent image repetition */
+  border-radius: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  /* Adds a light border around the div */
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  
+  /* Crucial for z-index to work */
+}
+
+.post-list {
+  text-align: justify;
+  background-image: url('/assets/images/postBackground.jpg');
+  background-repeat: repeat;
+  /* Prevent image repetition */
+  border-radius: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  /* Adds a light border around the div */
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  
+  /* Crucial for z-index to work */
 }
 
 section {
-  margin-bottom: 2rem; /* Space between sections */
+  margin-bottom: 2rem;
+  /* Space between sections */
 }
 
 hr {
-  border: 1px solid #ccc; /* Customize border style, color, and thickness */
-  margin: 0.5rem 0; /* Adjust margin above and below the line */
+  border: 1px solid #0b0b0b;
+  /* Customize border style, color, and thickness */
+  margin: 0.5rem 0;
+  /* Adjust margin above and below the line */
 }
 
-.expand-trigger{
-  color: #555;
-  font-weight: bold; 
+.expand-trigger {
+  color: #555555;
+  font-weight: bold;
+}
+
+.post-list-heading {
+  color: white;
+}
+
+.post-meta {
+  color: whitesmoke;
+}
+
+.post-title{ 
+  color: white;
+  text-shadow: 1px 1px 2px black; /* Black shadow offset slightly */
+}
+
+.post-header{ 
+  color: white;
+  font-size: 2.5rem; /* Increase font size */
+  text-shadow: 1px 1px 2px black; /* Black shadow offset slightly */
+}
+
+.site-footer {
+  background-color: #f0f0f0; /* Example background color */
+  padding: 1rem; 
 }

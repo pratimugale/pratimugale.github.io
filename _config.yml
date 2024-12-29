@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Pratim's personal website
-email: contact.pratimugale@gmail.com
+title: Pratim Ugale
+email: contact[dot]pratimugale@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website that covers my personal and professional interests ranging from
   software development, music, number theory to quantum computing.
