@@ -39,7 +39,7 @@ body {
 }
 
 .post-list {
-  text-align: justify;
+  /* text-align: justify; */
   background-image: url('/assets/images/postBackground.jpg');
   background-repeat: repeat;
   /* Prevent image repetition */
